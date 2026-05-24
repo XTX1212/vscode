@@ -1,0 +1,20 @@
+{
+  "name": "simplemono-theme",
+  "displayName": "SimpleMono",
+  "description": "A minimal, high-contrast monochromatic theme with gold accents",
+  "version": "1.0.0",
+  "publisher": "yourname",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "SimpleMono",
+        "uiTheme": "vs-dark",
+        "path": "./themes/simplemono-color-theme.json"
+      }
+    ]
+  }
+}
